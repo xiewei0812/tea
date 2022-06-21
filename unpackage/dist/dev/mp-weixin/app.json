@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/public/login",
+    "pages/unuser/unuser",
+    "pages/public/register",
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/unuser/userinfomation",
+    "pages/index/article_item",
+    "pages/unuser/setting",
+    "pages/shopping/shopping",
+    "pages/shopping/goods_details",
+    "pages/shopping/search",
+    "pages/unuser/imagechange",
+    "pages/unuser/spsclistitem",
+    "pages/unuser/wzsclistitem/wzsclistitem",
+    "pages/unuser/unuseraddress/addressList",
+    "pages/unuser/unuseraddress/addressEdit",
+    "pages/cart/orderlist",
+    "pages/cart/orserdetails",
+    "pages/cart/orderinfo",
+    "pages/index/user_article",
+    "pages/index/sendarticle",
+    "pages/index/articledetail",
+    "pages/unuser/myarticle",
+    "pages/unuser/sign"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "茶语人生",
+    "navigationBarBackgroundColor": "#3CB79A",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#838386",
+    "selectedColor": "#DD524D",
+    "list": [
+      {
+        "text": "资讯",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/home-o.png"
+      },
+      {
+        "text": "商城",
+        "pagePath": "pages/shopping/shopping",
+        "iconPath": "static/category.png",
+        "selectedIconPath": "static/category-o.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/cart.png",
+        "selectedIconPath": "static/cart-o.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/unuser/unuser",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/my-o.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,120 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+@font-face {
+  font-family: "iconfont"; /* Project id 2857934 */
+  src: url('https://at.alicdn.com/t/font_2857934_o5s7zvtelna.woff2?t=1646745288873') format('woff2'),
+       url('https://at.alicdn.com/t/font_2857934_o5s7zvtelna.woff?t=1646745288873') format('woff'),
+       url('https://at.alicdn.com/t/font_2857934_o5s7zvtelna.ttf?t=1646745288873') format('truetype');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-shanchu:before {
+  content: "\e607";
+}
+.icon-sousuo:before {
+  content: "\e651";
+}
+.icon-shouye:before {
+  content: "\e64f";
+}
+.icon-wodeguanzhu:before {
+  content: "\e8bc";
+}
+.icon-lianxikefu:before {
+  content: "\e696";
+}
+.icon-gengduo1:before {
+  content: "\e719";
+}
+.icon-gengduo:before {
+  content: "\e606";
+}
+.icon-shoucang:before {
+  content: "\e8b9";
+}
+.icon-shoucang1:before {
+  content: "\e8c6";
+}
+.icon-xihuan2:before {
+  content: "\e871";
+}
+.icon-31daifahuo:before {
+  content: "\e604";
+}
+.icon-31daipingjia:before {
+  content: "\e605";
+}
+.icon-wodeqianbao:before {
+  content: "\e642";
+}
+.icon-qiandao:before {
+  content: "\e60f";
+}
+.icon-tuihuanhuo:before {
+  content: "\e708";
+}
+.icon-fukuanma:before {
+  content: "\e643";
+}
+.icon-shezhi:before {
+  content: "\e603";
+}
+.icon-xiaoxizhongxin:before {
+  content: "\e665";
+}
+.icon-daifukuan1:before {
+  content: "\e620";
+}
+.icon-xihuan-1:before {
+  content: "\ecaa";
+}
+.icon-tubiao_Forward:before {
+  content: "\e60e";
+}
+.icon-tubiao_Forward-1:before {
+  content: "\eca9";
+}
+.icon-tuikuan:before {
+  content: "\e601";
+}
+.icon-quanbudingdan:before {
+  content: "\e602";
+}
+.icon-daifukuan:before {
+  content: "\e614";
+}
+.icon-daishouhuo:before {
+  content: "\e640";
+}
+.icon-daishouhuo-1:before {
+  content: "\ecab";
+}
+.icon-fenxiang:before {
+  content: "\e739";
+}
+.icon-kefu:before {
+  content: "\e625";
+}
+.icon-gouwuchekong:before {
+  content: "\e600";
+}
+

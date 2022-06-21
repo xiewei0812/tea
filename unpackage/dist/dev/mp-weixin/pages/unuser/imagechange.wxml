@@ -1,0 +1,1 @@
+<view class="data-v-0cec3159"><view class="image-info data-v-0cec3159"><image src="{{pic?pic:'../../static/user_pic.jpg'}}" class="data-v-0cec3159"></image></view><view class="btnchange data-v-0cec3159"><button type="default" data-event-opts="{{[['tap',[['changepic',['$event']]]]]}}" bindtap="__e" class="data-v-0cec3159">修改头像+</button></view></view>

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "搜索",
+  "navigationBarBackgroundColor": "#3CB79A",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "uni-search-bar": "/uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar",
+    "uni-tag": "/uni_modules/uni-tag/components/uni-tag/uni-tag"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="pageinfo"><button class="btn-content" type="default" data-event-opts="{{[['tap',[['btnclick',['$event']]]]]}}" bindtap="__e">{{''+btninfo+''}}</button></view>

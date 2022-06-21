@@ -1,0 +1,266 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+			{
+				"path":"pages/public/login",
+				"style":{
+				"navigationBarTitleText":"登录"
+				}
+			},
+			{
+			    "path" : "pages/unuser/unuser",
+			    "style" :                                                                                    
+			    {
+			       	"navigationStyle":"custom"
+			    }
+			    
+			},
+
+		{
+			"path":"pages/public/register",
+			"style":{
+			"navigationBarTitleText":"注册"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "资讯",
+				"navigationBarBackgroundColor":"#3CB79A",
+				"navigationBarTextStyle":"white"
+			}
+		}
+	    ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购物车",
+				"navigationBarBackgroundColor":"#3CB79A",
+				"navigationBarTextStyle":"white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/unuser/userinfomation",
+            "style" :                                                                                    
+            {
+               	 "navigationBarTitleText": "用户信息",
+				 "navigationBarTextStyle":"white"
+            }
+            
+        },
+		{
+		    "path" : "pages/index/article_item",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "文章详情",
+				"navigationBarBackgroundColor":"#3CB79A",
+				"navigationBarTextStyle":"white"
+		    }
+		    
+		}
+        
+        ,{
+            "path" : "pages/unuser/setting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": ""
+            }
+            
+        }
+        ,{
+            "path" : "pages/shopping/shopping",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商城",
+                "navigationBarBackgroundColor":"#3CB79A",
+                "navigationBarTextStyle":"white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/shopping/goods_details",
+            "style" :                                                                                    
+            {
+              	"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/shopping/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索",
+                "navigationBarBackgroundColor":"#3CB79A",
+                "navigationBarTextStyle":"white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/unuser/imagechange",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改头像",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/unuser/spsclistitem",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/unuser/wzsclistitem/wzsclistitem",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/unuser/unuseraddress/addressList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收货地址",
+                "enablePullDownRefresh": false ,
+				 "navigationBarTextStyle":"white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/unuser/unuseraddress/addressEdit",
+            "style" :                                                                                    
+            {
+               "navigationBarTitleText": "添加收货地址",
+               "enablePullDownRefresh": false ,
+                "navigationBarTextStyle":"white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/orderlist",                                                                                   
+            "style" : {
+            	"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/orserdetails",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cart/orderinfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/user_article",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "茶友圈",
+				// "navigationStyle":"custom",
+				"transparentTitle":"auto",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/sendarticle",
+            "style" :                                                                                    
+            {
+                "navigationStyle":"custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/articledetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				"navigationBarTextStyle":"black",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor":"#ffffff"
+            }
+            
+        }
+        ,{
+            "path" : "pages/unuser/myarticle",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/unuser/sign",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "每日签到",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color":"#838386",
+		"selectedColor":"#DD524D",
+		"list": [
+			{
+				"text": "资讯",
+				"pagePath":"pages/index/index",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/home-o.png"
+			},
+			{
+				"text": "商城",
+				"pagePath": "pages/shopping/shopping",
+				"iconPath": "static/category.png",
+				"selectedIconPath": "static/category-o.png"
+			},
+			{
+				"text": "购物车",
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/cart.png",
+				"selectedIconPath": "static/cart-o.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/unuser/unuser",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my-o.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "茶语人生",
+		"navigationBarBackgroundColor": "#3CB79A",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
